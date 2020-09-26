@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="src/css/styles.css" />
+        <script src="src/js/script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="selections">
+                <a id="rock" class="mt-5 selection"><img src="src/images/rock.svg" alt="rock" width="90" height="90" /></a>
+                <a id="paper" class="mt-5 selection"><img src="src/images/paper.svg" alt="paper" width="90" height="90" /></a>
+                <a id="scissors" class="mt-5 selection"><img src="src/images/scissors.svg" alt="scissors" width="90" height="90" /></a>
+            </div>
+            <p class="mt-4 title">Hint: choose your turn.</p>
+            <div class="mt-5 mb-5 results">
+                <div class="mb-4">
+                    <b>You: </b>
+                    <span id="human" class="result-score">0</span>
+                </div>
+                <div class="mb-4"></div>
+                <div class="mb-4">
+                    <b>Bot: </b>
+                    <span id="bot" class="result-score">0</span>
+                </div>
+            </div>
+            <div class="footer">
+                <center>
+                    <p class="mt-4 mb-2 text-muted">© 2020 s0ftik3</p>
+                    <a href="https://github.com/s0ftik3/RockPaperScissors"><i class="mr-2 fab fa-github" aria-hidden="true"></i></a>
+                </center>
+            </div>
+        </div>
+    </body>
+</html>
