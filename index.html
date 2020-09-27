@@ -17,6 +17,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="src/css/styles.css" />
+        <script src="src/js/rps.js" defer></script>
         <script src="src/js/script.js" defer></script>
     </head>
     <body>
@@ -26,22 +27,22 @@
                 <a id="paper" class="mt-5 selection"><img src="src/images/paper.svg" alt="paper" width="90" height="90" /></a>
                 <a id="scissors" class="mt-5 selection"><img src="src/images/scissors.svg" alt="scissors" width="90" height="90" /></a>
             </div>
-            <p class="mt-4 title">Hint: choose your turn.</p>
+            <p class="mt-4 hint">Hint: make your choice</p>
             <div class="mt-5 mb-5 results">
-                <div class="mb-4">
-                    <b>You: </b>
-                    <span id="human" class="result-score">0</span>
+                <div class="mb-3">
+                    <p>You</p>
                 </div>
-                <div class="mb-4"></div>
-                <div class="mb-4">
-                    <b>Bot: </b>
-                    <span id="bot" class="result-score">0</span>
+                <div class="mb-3 score">
+                    <b><span id="human" class="result-score">0</span> : <span id="bot" class="result-score">0</span></b>
+                </div>
+                <div class="mb-3">
+                    <p>Bot</p>
                 </div>
             </div>
             <div class="footer">
                 <center>
                     <p class="mt-4 mb-2 text-muted">© 2020 s0ftik3</p>
-                    <a href="https://github.com/s0ftik3/RockPaperScissors"><i class="mr-2 fab fa-github" aria-hidden="true"></i></a>
+                    <a href="https://github.com/s0ftik3/RockPaperScissors"><i class="mb-5 fab fa-github" aria-hidden="true"></i></a>
                 </center>
             </div>
         </div>
